@@ -16,5 +16,4 @@ function sortStringByInsideNumber(string $string){
   return implode(' ', $array);
 }
 
-echo sortStringByInsideNumber('is2 Thi1s T7est 4a').'<br>';
-var_dump(sortStringByInsideNumber(''));
+echo sortStringByInsideNumber('is2 Thi1s T7est 4a');

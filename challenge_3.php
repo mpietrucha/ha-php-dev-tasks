@@ -16,8 +16,8 @@ function find_uniq(array $strings){
   }
 }
 
-echo '<pre>',print_r(find_uniq([ 'Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a' ])).'<br>'; // => 'BbBb'
-echo '<pre>',print_r(find_uniq([ 'abc', 'acb', 'bac', 'foo', 'bca', 'cab', 'cba' ])).'<br>'; // => 'foo'
-echo '<pre>',print_r(find_uniq([ 'silvia', 'vasili', 'victor' ])).'<br>'; //victor
-echo '<pre>',print_r(find_uniq([ 'Tom Marvolo Riddle', 'I am Lord Voldemort', 'Harry Potter' ])).'<br>'; // Harry Potter
-echo '<pre>',print_r(find_uniq([ '     ', 'a', ' ' ])); // a
+echo find_uniq([ 'Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a' ]).'<br>'; // => 'BbBb'
+echo find_uniq([ 'abc', 'acb', 'bac', 'foo', 'bca', 'cab', 'cba' ]).'<br>'; // => 'foo'
+echo find_uniq([ 'silvia', 'vasili', 'victor' ]).'<br>'; //victor
+echo find_uniq([ 'Tom Marvolo Riddle', 'I am Lord Voldemort', 'Harry Potter' ]).'<br>'; // Harry Potter
+echo find_uniq([ '     ', 'a', ' ' ]); // a

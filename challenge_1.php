@@ -2,6 +2,7 @@
 
 function createBigLetterString(string $string){
   $backup = [];
+  $result = '';
   foreach (str_split($string) as $letter) {
     if(ctype_upper($letter)){
       $result .= $letter;
